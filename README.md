@@ -1,4 +1,4 @@
-# 🛒 Grocery App — MERN Stack
+# 🛒 GroceryHub — Grocery App
 
 A full-stack grocery web application built using MongoDB, Express, React, and Node.js.
 This application replicates real e-commerce flows such as browsing products, adding items to cart, and secure online checkout.
