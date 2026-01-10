@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { use, useEffect, useState } from 'react';
 import { assets } from '../assets/assets';
 import { Link } from 'react-router';
 
 const MainBanner = () => {
     return (
-        <div className="mt-10 relative w-full">
+        <div className="mt-10 absolute w-full">
             <img src={assets.main_banner_bg} alt="banner image" 
-                className="w-full hidden md:block" loading="lazy" />
+                className="w-full hidden md:block  " loading="lazy" />
             <img src={assets.main_banner_bg_sm} alt="banner image small screnn" 
-                className="w-full md:hidden" />
+                className={`w-full md:hidden`} />
 
             <div className="absolute inset-0 flex flex-col justify-center items-center px-4 md:top-10 md:left-5 md:items-start md:justify-start md:w-1/2 md:px-0">
-                <div className="pb-4 text-center md:text-left">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+                <div className="pb-4 lg:mt-12 text-center md:text-left">
+                    <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold">
                         Freshness You Can Trust, Savings You Will Love!
                     </h1>
                 </div>

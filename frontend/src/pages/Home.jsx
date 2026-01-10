@@ -3,8 +3,8 @@ import MainBanner from '../components/MainBanner';
 
 const Home = () => {
   return (
-    <div>
-        <MainBanner/>
+    <div className='relative'>
+      <MainBanner/>
     </div>
   );
 };

@@ -65,7 +65,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
            { open && 
-            (<div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm sm:hidden`}>
+            (<div className={`${open ? 'flex' : 'hidden'} absolute z-20 top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm sm:hidden`}>
                 <NavLink to='/' onClick={()=>setOpen(false)} className='block'>Home</NavLink>
                 <NavLink to='/products' onClick={()=>setOpen(false)} className='block'>All Products</NavLink>
 
