@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const MainBanner = () => {
     return (
-        <div className="mt-10 absolute w-full">
+        <div className="mt-10 relative w-full">
             <img src={assets.main_banner_bg} alt="banner image" 
                 className="w-full hidden md:block  " loading="lazy" />
             <img src={assets.main_banner_bg_sm} alt="banner image small screnn" 
